@@ -1,0 +1,25 @@
+---
+title: "Hi, I'm Kairi Meechoovet"
+---
+
+::::: columns
+::: {.column width="30%"}
+![](images/IMG_20240105_005601_187.jpg){style="border-radius: 50%;"}
+:::
+
+::: {.column width="70%" style="padding-left: 3rem;"}
+I'm a Aspiring Game/Esports Community Manager and Designer. I specialize in transforming complex information into clear, engaging, and actionable insights for Esports and Gaming stuff.
+:::
+:::::
+
+## About Me
+
+I hold a [Business Administration Marketing Management Degree]{.highlight} from California State Polytechnic University, Pomona.
+
+## Let's Connect
+
+You can [email me](mailto:kairimeechoovet@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/kairi-meechoovet-06042026a/).
+
+------------------------------------------------------------------------
+
+*Welcome to my portfolio.*

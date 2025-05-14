@@ -156,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="about-me" class="level2">
 <h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>I hold a <span class="highlight">Business Administration Marketing Management Degree</span> from California State Polytechnic University, Pomona. From the moment I discovered a niche Disney game called Kingdom Hearts on the PlayStation 2, I knew that I wanted to be a keyblade wielder when I grew up. However, (obviously) that dream became a bit impractical. I figured I was better at wielding the pen and paper, especially after the keyblade I made out of foam boards and a wooden dowel broke mid-battle against the darkness (a.k.a. my stuffed animals). These days, I’ve leveled up with the mouse and keyboard finding new creative aspirations, avenues and ways I can get insomnia. A couple of them being League of Legends and Valorant, graphic design and Esports coordination.</p>
+<p>I hold a <span class="highlight">Business Administration Marketing Management Degree</span> from California State Polytechnic University, Pomona. From the moment I discovered a niche Disney game called Kingdom Hearts on the PlayStation 2, I knew that I wanted to be a keyblade wielder when I grew up. However, (obviously) that dream became a bit impractical. I figured I was better at wielding the pen and paper, especially after the keyblade I made out of foam boards and a wooden dowel broke mid-battle against the darkness (a.k.a. my stuffed animals). These days, I’ve leveled up with the mouse and keyboard finding new creative aspirations, avenues and ways I can get insomnia. A couple of them being <em>League of Legends</em> and <em>Valorant</em>, graphic design and Esports coordination.</p>
 </section>
 <section id="lets-connect" class="level2">
 <h2 class="anchored" data-anchor-id="lets-connect">Let’s Connect</h2>
@@ -278,7 +278,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/304cf448-4194-4f3b-97e5-d129832fb532\.netlify\.app\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hi, I’m Kairi Meechoovet",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Résumé",
     "section": "",
-    "text": "I’m a Aspiring Game/Esports Community Manager and Designer. I specialize in transforming complex information into clear, engaging, and actionable insights for Esports and Gaming stuff."
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Hi, I’m Kairi Meechoovet",
-    "section": "About Me",
-    "text": "About Me\nI hold a Business Administration Marketing Management Degree from California State Polytechnic University, Pomona. From the moment I discovered a niche Disney game called Kingdom Hearts on the PlayStation 2, I knew that I wanted to be a keyblade wielder when I grew up. However, (obviously) that dream became a bit impractical. I figured I was better at wielding the pen and paper, especially after the keyblade I made out of foam boards and a wooden dowel broke mid-battle against the darkness (a.k.a. my stuffed animals). These days, I’ve leveled up with the mouse and keyboard finding new creative aspirations, avenues and ways I can get insomnia. A couple of them being League of Legends and Valorant, graphic design and Esports coordination."
-  },
-  {
-    "objectID": "index.html#what-i-do",
-    "href": "index.html#what-i-do",
-    "title": "Hi, I’m [Your Name Here]",
-    "section": "What I Do",
-    "text": "What I Do\n\n[Skill or Service 1]: [Brief explanation or tools used].\n[Skill or Service 2]: [Brief explanation or area of expertise].\n[Skill or Service 3]: [Brief explanation or audience served].\n[Skill or Service 4]: [Brief explanation or technologies used]."
-  },
-  {
-    "objectID": "index.html#lets-connect",
-    "href": "index.html#lets-connect",
-    "title": "Hi, I’m Kairi Meechoovet",
-    "section": "Let’s Connect",
-    "text": "Let’s Connect\nYou can email me or connect on LinkedIn."
+    "text": "You can view a PDF version of my resume here or here.\n\nProfessional Summary\nPassionate student at Cal Poly Pomona leading initiatives in collegiate Esports. Skilled in project and community & event management, graphic design, and copywriting with experience in organizing large-scale Esports/gaming events. Eager to learn and support marketing/event operations in the gaming industry.\n\n\nEDUCATION\n\n\n\n\n\n\n\n\n\nDegree\nYear\nCollege / Department\nInstitution\n\n\n\n\nBBA Marketing Management\nAug 2022 - May 2026\nBusiness Administration\nCalifornia State Polytechnic University\n\n\n\n\n\nPROGRAMS\n\nFigma\nMicrosoft 365\nGoogle Suite\nCapCut\n\n\n\nSKILLS\n\nMarketing\nEvent Planning\nConcept\nCreative Strategy\nGraphic Design\nDirecting\nBranding\nPublic Relations\n\n\n\nINTERESTS\n\nVideo Games\nAnime\nFashion\nEsports\n\n\n\nEXPERIENCE\n\nMarketing Team Lead, Bronco Esports\n[September 2024 – Present]\n\nDirected themes and coordinated media production for large-scale in-person Esports events–FragFest–that results in 400+ attendees.\n\nWorked cross-functionally with Esports organizations like Gen. G and the marketing team, to develop creative promotional content from social events, generating tangible media that effectively boosted community engagement.\n\nWrote engaging creative and informative copy for Discord announcements, Instagram, and Twitter, effectively promoting events and tournaments.\n\nConceptualized and executed League of Legends-related social events such as in-houses, watch parties, and competitive tournaments, fostering community engagement in online and in-person settings.\n\nDesigned 20+ promotional graphics advertising club events that reinforced and enhanced the Bronco Esports brand identity.\n\nAssessed engagement from all Bronco Esports social media platforms to refine marketing strategies and event planning.\n\n\n\n\n\nLeague of Legends Community Manager, Bronco Esports\n[February 2023 – Present]\n\nLed initiatives to grow the Bronco Esports League of Legends community with monthly social events/campaigns for over 150+ members.\n\nOptimized the Bronco Esports LoL Hub Discord server by restructuring roles and redesigning sections with an aesthetically pleasing design, improving navigation for new and existing users.\n\nDirected marketing strategies that enhanced community engagement with exclusive Discord server roles and prizes for social event/campaign participants.\n\nConsistently communicated efficiently with club members, participants, and attendees in-person and online helping events/campaigns run smoothly.\n\nFrequently monitored and reported on competitor Esports club activities and Discord server operations identifying opportunities to improve engagement and event quality.\n\n\n\n\nLeague of Legends Team Manager, Bronco Esports\n[May 2024 – Present]\n\nCollaborated with college Esports club leaders to organize scrims for player and team evaluations.\n\nManaged team schedules and meetings, creating informative presentations for monthly updates and tournament preparation reinforcing club objectives."
   },
   {
     "objectID": "marketing-analytics.html",
@@ -42,130 +21,39 @@
     "text": "What You’ll Find\n\nCampaign Performance Analysis: Measuring ROI for gaming brands, sponsorships, and influencer collaborations.\nData Visualization: Dashboards tracking Tiwtch viewership, social engagement, and in-game purchase behavior.\nMarketing Mix & Attribution: Breaking down which digital platform (Discord, Twitter, TikTok) drive the most conversions for different campaigns.\nCustomer & Market Insights: Using analytics to better understand our target audience (the gamers) and hwat keeps them playing our game or engaging with our products."
   },
   {
-    "objectID": "resume/YOUR-NAME-Resume.html",
-    "href": "resume/YOUR-NAME-Resume.html",
-    "title": "Professional Summary",
-    "section": "",
-    "text": "Professional Summary\nMotivated and detail-oriented marketing and analytics professional with a strong background in data interpretation, campaign strategy, and digital tools. Skilled in turning insights into action and communicating value across business teams.\n\n\nTechnical Skills\n\nProgramming Languages: R, Python, SQL, etc.\n\nWeb Technologies: HTML, CSS/SCSS, Quarto, CMS, Google Analytics, etc.\n\n\n\nEducation\n\n\n# A tibble: 2 × 5\n  what                     when                            with      where why  \n  &lt;chr&gt;                    &lt;chr&gt;                           &lt;chr&gt;     &lt;chr&gt; &lt;lis&gt;\n1 Master of [Your Field]   20XX – Expected Graduation 20XX [Your Sc… [You… &lt;chr&gt;\n2 Bachelor of [Your Field] 20XX – 20XX                     [Your Sc… [You… &lt;chr&gt;\n\n\n\n\nWork Experience\n\n\n# A tibble: 2 × 5\n  what      when                    with                         where why   \n  &lt;chr&gt;     &lt;chr&gt;                   &lt;chr&gt;                        &lt;chr&gt; &lt;list&gt;\n1 Job Title Month YYYY – Month YYYY Company or Organization Name &lt;NA&gt;  &lt;list&gt;\n2 Job Title Month YYYY – Month YYYY Another Company or Team      &lt;NA&gt;  &lt;list&gt;"
-  },
-  {
-    "objectID": "listings/05-social-media-engagement.html",
-    "href": "listings/05-social-media-engagement.html",
-    "title": "Social Media Engagement Analysis",
-    "section": "",
-    "text": "Overview\nThis analysis examined engagement metrics across multiple social media platforms to identify content trends, audience preferences, and posting strategies that drive performance.\n\n\n\n\nLearning Outcomes\n\nAggregate and clean social media data.\n\nIdentify high-performing content formats.\n\nUnderstand audience behavior and peak times.\n\nSupport social strategy with data-backed recommendations.\n\nVisualize results in an executive summary.\n\n\n\n\nKey Skills Gained\n\nSocial analytics\n\nPlatform metric APIs\n\nContent performance tracking\n\nAudience insights\n\nStrategic planning"
-  },
-  {
-    "objectID": "listings/03-customer-segmentation-clustering.html",
-    "href": "listings/03-customer-segmentation-clustering.html",
-    "title": "Customer Segmentation Using Clustering",
-    "section": "",
-    "text": "Overview\nIn this analysis, customer data was segmented using clustering algorithms to identify meaningful groups. These segments informed targeting strategies and personalization efforts.\n\n\n\n\nLearning Outcomes\n\nClean and prepare customer-level data.\n\nApply clustering techniques to group similar customers.\n\nInterpret clusters to define marketing personas.\n\nRecommend tailored messaging strategies.\n\nSupport targeted campaign development.\n\n\n\n\nKey Skills Gained\n\nK-means clustering\n\nData preprocessing\n\nCustomer profiling\n\nMarket segmentation strategy\n\nR or Python for machine learning"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Résumé",
-    "section": "",
-    "text": "You can view a PDF version of my resume here or here.\n\nProfessional Summary\nPassionate student at Cal Poly Pomona leading initiatives in collegiate Esports. Skilled in project and community & event management, graphic design, and copywriting with experience in organizing large-scale Esports/gaming events. Eager to learn and support marketing/event operations in the gaming industry.\n\n\nEDUCATION\n\n\n\n\n\n\n\n\n\nDegree\nYear\nCollege / Department\nInstitution\n\n\n\n\nBBA Marketing Management\nAug 2022 - May 2026\nBusiness Administration\nCalifornia State Polytechnic University\n\n\n\n\n\nPROGRAMS\n\nFigma\nMicrosoft 365\nGoogle Suite\nCapCut\n\n\n\nSKILLS\n\nMarketing\nEvent Planning\nConcept\nCreative Strategy\nGraphic Design\nDirecting\nBranding\nPublic Relations\n\n\n\nINTERESTS\n\nVideo Games\nAnime\nFashion\nEsports\n\n\n\nEXPERIENCE\n\nMarketing Team Lead, Bronco Esports\n[September 2024 – Present]\n\nDirected themes and coordinated media production for large-scale in-person Esports events–FragFest–that results in 400+ attendees.\n\nWorked cross-functionally with Esports organizations like Gen. G and the marketing team, to develop creative promotional content from social events, generating tangible media that effectively boosted community engagement.\n\nWrote engaging creative and informative copy for Discord announcements, Instagram, and Twitter, effectively promoting events and tournaments.\n\nConceptualized and executed League of Legends-related social events such as in-houses, watch parties, and competitive tournaments, fostering community engagement in online and in-person settings.\n\nDesigned 20+ promotional graphics advertising club events that reinforced and enhanced the Bronco Esports brand identity.\n\nAssessed engagement from all Bronco Esports social media platforms to refine marketing strategies and event planning.\n\n\n\n\n\nLeague of Legends Community Manager, Bronco Esports\n[February 2023 – Present]\n\nLed initiatives to grow the Bronco Esports League of Legends community with monthly social events/campaigns for over 150+ members.\n\nOptimized the Bronco Esports LoL Hub Discord server by restructuring roles and redesigning sections with an aesthetically pleasing design, improving navigation for new and existing users.\n\nDirected marketing strategies that enhanced community engagement with exclusive Discord server roles and prizes for social event/campaign participants.\n\nConsistently communicated efficiently with club members, participants, and attendees in-person and online helping events/campaigns run smoothly.\n\nFrequently monitored and reported on competitor Esports club activities and Discord server operations identifying opportunities to improve engagement and event quality.\n\n\n\n\nLeague of Legends Team Manager, Bronco Esports\n[May 2024 – Present]\n\nCollaborated with college Esports club leaders to organize scrims for player and team evaluations.\n\nManaged team schedules and meetings, creating informative presentations for monthly updates and tournament preparation reinforcing club objectives."
-  },
-  {
-    "objectID": "listings/02-seo-benchmarking-analysis.html",
-    "href": "listings/02-seo-benchmarking-analysis.html",
+    "objectID": "listings/In-Game Ad Analysis.html",
+    "href": "listings/In-Game Ad Analysis.html",
     "title": "In-Game Ad Performance Dashboard",
     "section": "",
     "text": "Overview\nI built a real-time dashboard tracking player interactions with in-game ads (e.g., banner clicks, rewarded video completions) for a mobile RPG.\n\n\n\n\nOutcomes\n\nIdentified a 15% drop-off rate during unskippable ads—led to A/B testing shorter formats.\n\nTop-performing ad placement: Main menu (pre-lobby) had a 22% higher CTR than post-match screens.\n\n\n\n\n\nKey Skills Gained\n\nGoogle Analytics 4 (custom events)\n\nTableau for visualizing player funnel drop-offs\n\n\n\n\n\nCTR by Ad Placement\n\nlibrary(ggplot2)\n\n# Simulated ad performance data\nad_data &lt;- data.frame(\n  Placement = c(\"Main Menu\", \"Post-Match\", \"Inventory\", \"Loading Screen\"),\n  CTR = c(22, 15, 8, 4),\n  Drop_Off_Rate = c(15, 28, 42, 50)\n)\n\n# Plot\nggplot(ad_data, aes(x = reorder(Placement, -CTR), y = CTR)) +\n  geom_col(fill = \"#00B0F0\") +\n  geom_text(aes(label = paste0(CTR, \"%\")), vjust = -0.5) +\n  labs(\n    title = \"In-Game Ad Click-Through Rates (CTR)\",\n    subtitle = \"Main menu ads perform best, but avoid loading screens\",\n    x = \"Ad Placement\",\n    y = \"CTR (%)\"\n  ) +\n  theme_minimal()"
   },
   {
-    "objectID": "listings/04-funnel-attribution-model.html",
-    "href": "listings/04-funnel-attribution-model.html",
-    "title": "Marketing Funnel Attribution Model",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Kairi Meechoovet",
     "section": "",
-    "text": "Overview\nThis project developed a marketing attribution model to assign credit to touchpoints throughout the conversion journey. The insights supported channel optimization and budget reallocation.\n\n\n\n\nLearning Outcomes\n\nTrack multi-touch customer journeys.\n\nModel attribution using first-touch, last-touch, and linear approaches.\n\nVisualize funnel performance.\n\nQuantify channel impact on conversion.\n\nGuide future campaign investment decisions.\n\n\n\n\nKey Skills Gained\n\nAttribution modeling\n\nFunnel analysis\n\nData visualization\n\nCampaign performance analysis\n\nR or Python analytics pipelines"
+    "text": "I’m a Aspiring Game/Esports Community Manager and Designer. I specialize in transforming complex information into clear, engaging, and actionable insights for Esports and Gaming stuff."
   },
   {
-    "objectID": "listings/01-campaign-insights-dashboard.html",
-    "href": "listings/01-campaign-insights-dashboard.html",
-    "title": "Case Study: Esports Social Media Engagement Analysis",
-    "section": "",
-    "text": "Overview\nIn this project, I worked with a Teir 2 Esports organization and helped them track their engagement metrics from their digital platforms such as Twitch, Twitter, Instagram, and Tik Tok in order to identify what content resonates with their audience. I focused on post-tournament attraction, meme trends, and player spotlight campaigns.\n\n\n\n\nKey Insights\n\nMemes & Highlights = 3x Engagement: Short-form video clips of clutch replays outperformed static posts by 200%.\nPeak Posting Times: 7-9 PM EST (post-tournament hours) drove the most interactions.\nHashtag Strategy: #LEAGUEOFLEGENDS and #ESPORTS boosted discoverability by 40%.\n\n\n\n\nKey Skills Gained\n\nSocial listening (Brandwatch, Sprout Social)\n\nTwitch stream overlay CTR analysis\n\nAudience Sentiment tracking (positive spikes after tournament wins)\n\n\n\n\n\nTwitter vs Tik Tok\n\n# Load required package\nlibrary(ggplot2)\n\n# Simulated engagement data\nsocial_data &lt;- data.frame(\n  Platform = c(rep(\"Twitter\", 5), rep(\"TikTok\", 5)),\n  Post_Type = rep(c(\"Meme\", \"Highlight\", \"Poll\", \"AMA\", \"Giveaway\"), 2),\n  Engagement_Rate = c(3.2, 4.1, 1.8, 2.5, 5.0, 8.7, 9.2, 2.1, 4.3, 12.1)\n)\n\n# Plot\nggplot(social_data, aes(x = Post_Type, y = Engagement_Rate, fill = Platform)) +\n  geom_bar(stat = \"identity\", position = \"dodge\") +\n  labs(\n    title = \"Esports Content Engagement by Platform\",\n    subtitle = \"TikTok clips outperform Twitter posts by 2-3x\",\n    x = \"Post Type\",\n    y = \"Engagement Rate (%)\"\n  ) +\n  theme_minimal() +\n  scale_fill_manual(values = c(\"#1DA1F2\", \"#FF0050\"))  # Twitter blue + TikTok red\n\n\n\n\n\n\n\n\n\n\nHashtag Performance\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\nWarning: package 'dplyr' was built under R version 4.4.3\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(tidyr)\n\n# Simulated hashtag performance data across platforms\nhashtag_data &lt;- data.frame(\n  Hashtag = rep(c(\"#LeagueOfLegends\", \"#Esports\", \"#Gaming\", \"#LEC\"), 3),\n  Platform = rep(c(\"TikTok\", \"Twitter\", \"Instagram\"), each = 4),\n  Discoverability_Lift = c(\n    # TikTok performance\n    52, 48, 28, 35,\n    # Twitter performance\n    40, 38, 15, 22,\n    # Instagram performance\n    45, 42, 20, 30\n  )\n)\n\n# 1. Combined Platform Visualization\nggplot(hashtag_data, aes(x = reorder(Hashtag, -Discoverability_Lift), \n                       y = Discoverability_Lift, \n                       fill = Platform)) +\n  geom_bar(stat = \"identity\", position = \"dodge\") +\n  geom_text(aes(label = paste0(Discoverability_Lift, \"%\")), \n            position = position_dodge(width = 0.9),\n            vjust = -0.5, size = 3) +\n  scale_fill_manual(values = c(\"#FF0050\", \"#1DA1F2\", \"#E1306C\")) + # Platform colors\n  labs(\n    title = \"Hashtag Performance Across Platforms\",\n    subtitle = \"#LeagueOfLegends dominates on TikTok (52% lift vs 40% on Twitter)\",\n    x = \"\",\n    y = \"Discoverability Lift (%)\",\n    fill = \"Platform\"\n  ) +\n  theme_minimal() +\n  theme(legend.position = \"top\")\n\n\n\n\n\n\n\n# 2. Individual Platform Visualizations (Facets)\nggplot(hashtag_data, aes(x = reorder(Hashtag, -Discoverability_Lift), \n                       y = Discoverability_Lift)) +\n  geom_col(fill = \"#2196F3\", width = 0.7) +\n  geom_text(aes(label = paste0(Discoverability_Lift, \"%\")), \n            vjust = -0.5, size = 3.5) +\n  facet_wrap(~Platform, nrow = 1) +\n  labs(\n    title = \"Hashtag Performance by Platform\",\n    subtitle = \"TikTok shows highest potential for discoverability growth\",\n    x = \"\",\n    y = \"Discoverability Lift (%)\"\n  ) +\n  theme_minimal() +\n  theme(strip.text = element_text(face = \"bold\"))\n\n\n\n\n\n\n\n# 3. Platform Comparison Heatmap\nggplot(hashtag_data, aes(x = Platform, y = Hashtag, fill = Discoverability_Lift)) +\n  geom_tile(color = \"white\", size = 0.5) +\n  geom_text(aes(label = paste0(Discoverability_Lift, \"%\")), color = \"white\", size = 4) +\n  scale_fill_gradient(low = \"#3F51B5\", high = \"#FF4081\") +\n  labs(\n    title = \"Hashtag Effectiveness Heatmap\",\n    x = \"\",\n    y = \"\",\n    fill = \"Lift (%)\"\n  ) +\n  theme_minimal() +\n  theme(axis.text.x = element_text(angle = 0, hjust = 0.5))\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n\n\n\n\n\n\n\n\n\nKey Insights From Data\n\nPlatform Differences:\n\nTik Tok hashtags perform best overall (52% max lift)\nTwitter performs the worst which can suggest that our audience isn’t on Twitter that much\nOur Instagram can improve"
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Hi, I’m Kairi Meechoovet",
+    "section": "About Me",
+    "text": "About Me\nI hold a Business Administration Marketing Management Degree from California State Polytechnic University, Pomona. From the moment I discovered a niche Disney game called Kingdom Hearts on the PlayStation 2, I knew that I wanted to be a keyblade wielder when I grew up. However, (obviously) that dream became a bit impractical. I figured I was better at wielding the pen and paper, especially after the keyblade I made out of foam boards and a wooden dowel broke mid-battle against the darkness (a.k.a. my stuffed animals). These days, I’ve leveled up with the mouse and keyboard finding new creative aspirations, avenues and ways I can get insomnia. A couple of them being League of Legends and Valorant, graphic design and Esports coordination."
   },
   {
-    "objectID": "strategic-marketing.html",
-    "href": "strategic-marketing.html",
-    "title": "Bronco Esports",
-    "section": "",
-    "text": "Marketing Lead\nLeague of Legends Community Manager\nLeague of Legends Co-Team Manager"
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Hi, I’m Kairi Meechoovet",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\nYou can email me or connect on LinkedIn."
   },
   {
-    "objectID": "strategic-marketing.html#project-title-1-strategic-campaign-planning",
-    "href": "strategic-marketing.html#project-title-1-strategic-campaign-planning",
-    "title": "Strategic Marketing",
-    "section": "[Project Title 1: Strategic Campaign Planning]",
-    "text": "[Project Title 1: Strategic Campaign Planning]\nIn this project, I led the development of a comprehensive marketing campaign for [product, service, or initiative]. From audience segmentation to messaging strategy, I managed the full lifecycle of the campaign, aligning it with business objectives and measurable KPIs.\nSkills Demonstrated:\n\nMarketing Strategy: Defined objectives and tactics for maximum impact.\nTeam Coordination: Oversaw collaboration across creative, data, and channel teams.\nPerformance Tracking: Implemented real-time metrics and post-campaign analysis.\nBrand Positioning: Ensured consistency across all touchpoints."
-  },
-  {
-    "objectID": "strategic-marketing.html#project-title-2-brand-audit-positioning",
-    "href": "strategic-marketing.html#project-title-2-brand-audit-positioning",
-    "title": "Strategic Marketing",
-    "section": "[Project Title 2: Brand Audit & Positioning]",
-    "text": "[Project Title 2: Brand Audit & Positioning]\nThis initiative involved conducting a full brand audit for [organization or brand], evaluating its current market perception, competitive landscape, and customer engagement. I synthesized insights into a refreshed brand strategy and visual identity recommendations.\nSkills Demonstrated:\n\nBrand Analysis: Audited messaging, tone, and visual identity.\nCompetitive Benchmarking: Evaluated brand positioning within the market.\nStrategic Communication: Developed new value propositions and storytelling elements.\nStakeholder Presentation: Delivered recommendations to senior leadership."
-  },
-  {
-    "objectID": "strategic-marketing.html#project-title-3-product-launch-go-to-market-plan",
-    "href": "strategic-marketing.html#project-title-3-product-launch-go-to-market-plan",
-    "title": "Bronco Esports",
-    "section": "[Project Title 3: Product Launch Go-to-Market Plan]",
-    "text": "[Project Title 3: Product Launch Go-to-Market Plan]\nFor the release of [new product/service], I created a go-to-market (GTM) strategy from scratch. This included customer journey mapping, channel mix planning, and launch timeline coordination.\nSkills Demonstrated:\n\nGo-to-Market Strategy: Developed a clear launch roadmap aligned with buyer needs.\nIntegrated Marketing: Orchestrated email, paid ads, social, and on-site promotions.\nBudget Management: Allocated resources efficiently across tactics.\nLaunch Optimization: Tracked performance and refined tactics in real time.\n\nBelow is an embedded demonstration of the interactive report:"
-  },
-  {
-    "objectID": "strategic-marketing.html#project-title-4-client-consulting-campaign-optimization",
-    "href": "strategic-marketing.html#project-title-4-client-consulting-campaign-optimization",
-    "title": "Bronco Esports",
-    "section": "[Project Title 4: Client Consulting & Campaign Optimization]",
-    "text": "[Project Title 4: Client Consulting & Campaign Optimization]\nI collaborated with a client to assess and optimize their existing marketing efforts. Through audits, persona development, and campaign refinement, I helped improve ROI and audience engagement.\nSkills Demonstrated:\n\nClient Consulting: Provided clear insights and strategic guidance.\nPersona Development: Built target personas to guide messaging.\nCampaign Optimization: Identified and addressed areas of underperformance.\nData-Driven Adjustments: Leveraged analytics to refine tactics."
-  },
-  {
-    "objectID": "resume/Resume.html",
-    "href": "resume/Resume.html",
-    "title": "Professional Summary",
-    "section": "",
-    "text": "Professional Summary\nPassionate student at Cal Poly Pomona leading initiatives in collegiate Esports. Skilled in project and community & event management, graphic design, and copywriting with experience in organizing large-scale Esports/gaming events. Eager to learn and support marketing/event operations in the gaming industry.\n\n\nPrograms\n\nFigma, Google Suite, Microsoft 365\n\n\n\nEducation\n\n\n# A tibble: 1 × 5\n  what                              when                       with  where why  \n  &lt;chr&gt;                             &lt;chr&gt;                      &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 Bachelors of Marketing Management 2022 – Expected Graduatio… Busi… Cali… &lt;chr&gt;\n\n\n\n\nWork Experience\n\n\n# A tibble: 2 × 5\n  what                                when                    with  where why   \n  &lt;chr&gt;                               &lt;chr&gt;                   &lt;chr&gt; &lt;chr&gt; &lt;list&gt;\n1 Marketing Lead                      September 2024 – Prese… Bron… &lt;NA&gt;  &lt;list&gt;\n2 League of Legends Community Manager February 2023 – Present Bron… &lt;NA&gt;  &lt;list&gt;"
-  },
-  {
-    "objectID": "strategic-marketing.html#current-positions-2023-present",
-    "href": "strategic-marketing.html#current-positions-2023-present",
-    "title": "Bronco Esports",
-    "section": "",
-    "text": "Marketing Lead\nLeague of Legends Community Manager\nLeague of Legends Co-Team Manager"
-  },
-  {
-    "objectID": "strategic-marketing.html#location",
-    "href": "strategic-marketing.html#location",
-    "title": "Bronco Esports",
-    "section": "Location:",
-    "text": "Location:\nCalifornia State Polytechnic University, Pomona"
-  },
-  {
-    "objectID": "strategic-marketing.html#what-is-bronco-esports",
-    "href": "strategic-marketing.html#what-is-bronco-esports",
-    "title": "Bronco Esports",
-    "section": "What is Bronco Esports?",
-    "text": "What is Bronco Esports?\nBronco Esports is a competative and causal gaming club run by students at Cal Poly Pomona. Our goal is to promote Esports on and off campus by holding tournaments, reaching out to other schools’ Esports organizations and encuraging our members to go to large-scale events such as FragFest. Bronco Esports fosters various gaming communities under titles such as League of Legends, Valorant, Teamfight Tactics, CS:GO, Rocket League, and more!\n\nWHAT I’VE DONE:\n\nMade eye-catching electronic media. Electronic media are used for online social media posts via Discord and Instagram to effectively promote and market each event.\nCoordinated gaming tournaments for League of Legends which included the process of planning the date, times, format, rules, media, prizing, registration, and space of the event.\nI moderated the Bronco Esports LoL Discord Server with over 300+ members. This included enforcing basic online rules to create a non-toxic and welcoming yet professional college Esports environment, writing announcements in a clear and concise format to inform members details of upcoming events, and communicating with members/officers to coordinate events appropriately."
-  },
-  {
-    "objectID": "strategic-marketing.html#what-ive-done",
-    "href": "strategic-marketing.html#what-ive-done",
-    "title": "Bronco Esports",
-    "section": "WHAT I’VE DONE:",
-    "text": "WHAT I’VE DONE:\n\nMade eye-catching electronic media. Electronic media are used for online social media posts via Discord and Instagram to effectively promote and market each event.\nCoordinated gaming tournaments for League of Legends which included the process of planning the date, times, format, rules, media, prizing, registration, and space of the event.\nI moderated the Bronco Esports LoL Discord Server with over 300+ members. This included enforcing basic online rules to create a non-toxic and welcoming yet professional college Esports environment, writing announcements in a clear and concise format to inform members details of upcoming events, and communicating with members/officers to coordinate events appropriately."
-  },
-  {
-    "objectID": "strategic-marketing.html#league-of-legends-collegiate-team-tryouts",
-    "href": "strategic-marketing.html#league-of-legends-collegiate-team-tryouts",
-    "title": "Bronco Esports",
-    "section": "League of Legends Collegiate Team Tryouts",
-    "text": "League of Legends Collegiate Team Tryouts\nI led tryouts for a new League of Legends Collegiate team that would be playing for the Fall and Spring Semesters in tournaments like CLOL and NECC.\nWHAT I DID:\n\nMade electronic media that are used for online social media posts via Discord and Instagram to effectively promote and market each event.\nWrote informative and creative copy for our Instagram post and the Bronco Esports LoL Discord server (which can be seen below).\nHosted and coordinated tryouts consisting of 20+ participants to form our Fall 2024-Spring 2025 League of Legends Esports Team.\nTo ensure a professional and well-organized tryout, I made a Google form asking for the minimum required information from players and a Google Excel sheet where they were sorted into pre-made matches.\nAdministrated pre-made matches to make sure all participants could play their main and secondary roles.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView this post on Instagram\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA post shared by Bronco Esports (@cppesports)"
+    "objectID": "index.html#highlighted-achievments",
+    "href": "index.html#highlighted-achievments",
+    "title": "Hi, I’m Kairi Meechoovet",
+    "section": "Highlighted Achievments",
+    "text": "Highlighted Achievments\nEsports Engagement Analytics - Analyzed data from social media platforms surrounding content types and high performing formats.\nBronco Esports\n\nGraphic Design: Used Figma to create 20+ graphics reinforcing and enhancing the brand of Bronco Esports at Cal Poly Pomona.\nEvent Organization: Organized large-scale events of 400+ attendees with success.\nPublic Relations & Social Media: Wrote copy and coordinated posts for Discord, Instagram, and Twitter to engage audiences across campus and even off campus.\n\nPlayer Retention Analysis:\n\nAnalyzed 500+ survey responses from the FGC community, revealing date and quality preferences.\n\nIn-game purchase Analysis:\n\nAnalyzed in-game purchase times to see when players might be impacted by in-game ads in a mobile RPG.\n\n\nWelcome to my portfolio."
   },
   {
     "objectID": "Bronco Esports.html",
@@ -210,13 +98,6 @@
     "text": "LOL Sketch Night\nWHAT I DID:\n\nMade the post-promotional media for the event to cultivate a positive gaming community within Bronco Esports.\nWrote informative and creative copy for our social media posts and the Bronco Esports LoL Discord server (which can be seen below).\nDirected and hosted the event before and throughout it’s duration.\nDirected branding of the event as an officer of the media team.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView this post on Instagram\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA post shared by Bronco Esports (@cppesports)\n\n\n\n\n\n\n❦ Proudly presenting (from yours truly ♡ the Bronco Esports LoL community)…Summoner Sketches🧵⬇️#BroncoEsports #Lolsketch #Leagueoflegends pic.twitter.com/NlMlfLzI3F\n\n— Bronco Esports (@CPPEsports) October 3, 2024"
   },
   {
-    "objectID": "listings/In-Game Ad Analysis.html",
-    "href": "listings/In-Game Ad Analysis.html",
-    "title": "In-Game Ad Performance Dashboard",
-    "section": "",
-    "text": "Overview\nI built a real-time dashboard tracking player interactions with in-game ads (e.g., banner clicks, rewarded video completions) for a mobile RPG.\n\n\n\n\nOutcomes\n\nIdentified a 15% drop-off rate during unskippable ads—led to A/B testing shorter formats.\n\nTop-performing ad placement: Main menu (pre-lobby) had a 22% higher CTR than post-match screens.\n\n\n\n\n\nKey Skills Gained\n\nGoogle Analytics 4 (custom events)\n\nTableau for visualizing player funnel drop-offs\n\n\n\n\n\nCTR by Ad Placement\n\nlibrary(ggplot2)\n\n# Simulated ad performance data\nad_data &lt;- data.frame(\n  Placement = c(\"Main Menu\", \"Post-Match\", \"Inventory\", \"Loading Screen\"),\n  CTR = c(22, 15, 8, 4),\n  Drop_Off_Rate = c(15, 28, 42, 50)\n)\n\n# Plot\nggplot(ad_data, aes(x = reorder(Placement, -CTR), y = CTR)) +\n  geom_col(fill = \"#00B0F0\") +\n  geom_text(aes(label = paste0(CTR, \"%\")), vjust = -0.5) +\n  labs(\n    title = \"In-Game Ad Click-Through Rates (CTR)\",\n    subtitle = \"Main menu ads perform best, but avoid loading screens\",\n    x = \"Ad Placement\",\n    y = \"CTR (%)\"\n  ) +\n  theme_minimal()"
-  },
-  {
     "objectID": "listings/FGC Survey.html",
     "href": "listings/FGC Survey.html",
     "title": "Fighting Game Community (FGC) Survey",
@@ -231,10 +112,10 @@
     "text": "Overview\nIn this project, I worked with a Tier 2 Esports organization and helped them track their engagement metrics from their digital platforms such as Twitch, Twitter, Instagram, and TikTok in order to identify what content resonates with their audience. I focused on post-tournament attraction, meme trends, and player spotlight campaigns.\n\n\n\n\nKey Insights\n\nMemes & Highlights = 3x Engagement: Short-form video clips of clutch replays outperformed static posts by 200%.\nPeak Posting Times: 7-9 PM EST (post-tournament hours) drove the most interactions.\nHashtag Strategy: #LEAGUEOFLEGENDS and #ESPORTS boosted discoverability by 40%.\n\n\n\n\nKey Skills Gained\n\nSocial listening (Brandwatch, Sprout Social)\n\nTwitch stream overlay CTR analysis\n\nAudience Sentiment tracking (positive spikes after tournament wins)\n\n\n\n\n\nTwitter vs Tik Tok\n\n# Load required package\nlibrary(ggplot2)\n\n# Simulated engagement data\nsocial_data &lt;- data.frame(\n  Platform = c(rep(\"Twitter\", 5), rep(\"TikTok\", 5)),\n  Post_Type = rep(c(\"Meme\", \"Highlight\", \"Poll\", \"AMA\", \"Giveaway\"), 2),\n  Engagement_Rate = c(3.2, 4.1, 1.8, 2.5, 5.0, 8.7, 9.2, 2.1, 4.3, 12.1)\n)\n\n# Plot\nggplot(social_data, aes(x = Post_Type, y = Engagement_Rate, fill = Platform)) +\n  geom_bar(stat = \"identity\", position = \"dodge\") +\n  labs(\n    title = \"Esports Content Engagement by Platform\",\n    subtitle = \"TikTok clips outperform Twitter posts by 2-3x\",\n    x = \"Post Type\",\n    y = \"Engagement Rate (%)\"\n  ) +\n  theme_minimal() +\n  scale_fill_manual(values = c(\"#1DA1F2\", \"#FF0050\"))  # Twitter blue + TikTok red\n\n\n\n\n\n\n\n\n\n\nHashtag Performance\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\nWarning: package 'dplyr' was built under R version 4.4.3\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(tidyr)\n\n# Simulated hashtag performance data across platforms\nhashtag_data &lt;- data.frame(\n  Hashtag = rep(c(\"#LeagueOfLegends\", \"#Esports\", \"#Gaming\", \"#LEC\"), 3),\n  Platform = rep(c(\"TikTok\", \"Twitter\", \"Instagram\"), each = 4),\n  Discoverability_Lift = c(\n    # TikTok performance\n    52, 48, 28, 35,\n    # Twitter performance\n    40, 38, 15, 22,\n    # Instagram performance\n    45, 42, 20, 30\n  )\n)\n\n# 1. Combined Platform Visualization\nggplot(hashtag_data, aes(x = reorder(Hashtag, -Discoverability_Lift), \n                       y = Discoverability_Lift, \n                       fill = Platform)) +\n  geom_bar(stat = \"identity\", position = \"dodge\") +\n  geom_text(aes(label = paste0(Discoverability_Lift, \"%\")), \n            position = position_dodge(width = 0.9),\n            vjust = -0.5, size = 3) +\n  scale_fill_manual(values = c(\"#FF0050\", \"#1DA1F2\", \"#E1306C\")) + # Platform colors\n  labs(\n    title = \"Hashtag Performance Across Platforms\",\n    subtitle = \"#LeagueOfLegends dominates on TikTok (52% lift vs 40% on Twitter)\",\n    x = \"\",\n    y = \"Discoverability Lift (%)\",\n    fill = \"Platform\"\n  ) +\n  theme_minimal() +\n  theme(legend.position = \"top\")\n\n\n\n\n\n\n\n# 2. Individual Platform Visualizations (Facets)\nggplot(hashtag_data, aes(x = reorder(Hashtag, -Discoverability_Lift), \n                       y = Discoverability_Lift)) +\n  geom_col(fill = \"#2196F3\", width = 0.7) +\n  geom_text(aes(label = paste0(Discoverability_Lift, \"%\")), \n            vjust = -0.5, size = 3.5) +\n  facet_wrap(~Platform, nrow = 1) +\n  labs(\n    title = \"Hashtag Performance by Platform\",\n    subtitle = \"TikTok shows highest potential for discoverability growth\",\n    x = \"\",\n    y = \"Discoverability Lift (%)\"\n  ) +\n  theme_minimal() +\n  theme(strip.text = element_text(face = \"bold\"))\n\n\n\n\n\n\n\n# 3. Platform Comparison Heatmap\nggplot(hashtag_data, aes(x = Platform, y = Hashtag, fill = Discoverability_Lift)) +\n  geom_tile(color = \"white\", size = 0.5) +\n  geom_text(aes(label = paste0(Discoverability_Lift, \"%\")), color = \"white\", size = 4) +\n  scale_fill_gradient(low = \"#3F51B5\", high = \"#FF4081\") +\n  labs(\n    title = \"Hashtag Effectiveness Heatmap\",\n    x = \"\",\n    y = \"\",\n    fill = \"Lift (%)\"\n  ) +\n  theme_minimal() +\n  theme(axis.text.x = element_text(angle = 0, hjust = 0.5))\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n\n\n\n\n\n\n\n\n\nKey Insights From Data\n\nPlatform Differences:\n\nTik Tok hashtags perform best overall (52% max lift)\nTwitter performs the worst which can suggest that our audience isn’t on Twitter that much\nOur Instagram can improve"
   },
   {
-    "objectID": "index.html#highlighted-achievments",
-    "href": "index.html#highlighted-achievments",
-    "title": "Hi, I’m Kairi Meechoovet",
-    "section": "Highlighted Achievments",
-    "text": "Highlighted Achievments\nEsports Engagement Analytics - Analyzed data from social media platforms surrounding content types and high performing formats.\nBronco Esports\n\nGraphic Design: Used Figma to create 20+ graphics reinforcing and enhancing the brand of Bronco Esports at Cal Poly Pomona.\nEvent Organization: Organized large-scale events of 400+ attendees with success.\nPublic Relations & Social Media: Wrote copy and coordinated posts for Discord, Instagram, and Twitter to engage audiences across campus and even off campus.\n\nPlayer Retention Analysis:\n\nAnalyzed 500+ survey responses from the FGC community, revealing date and quality preferences.\n\nIn-game purchase Analysis:\n\nAnalyzed in-game purchase times to see when players might be impacted by in-game ads in a mobile RPG.\n\n\nWelcome to my portfolio."
+    "objectID": "resume/Resume.html",
+    "href": "resume/Resume.html",
+    "title": "Professional Summary",
+    "section": "",
+    "text": "Professional Summary\nPassionate student at Cal Poly Pomona leading initiatives in collegiate Esports. Skilled in project and community & event management, graphic design, and copywriting with experience in organizing large-scale Esports/gaming events. Eager to learn and support marketing/event operations in the gaming industry.\n\n\nPrograms\n\nFigma, Google Suite, Microsoft 365\n\n\n\nEducation\n\n\n# A tibble: 1 × 5\n  what                              when                       with  where why  \n  &lt;chr&gt;                             &lt;chr&gt;                      &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 Bachelors of Marketing Management 2022 – Expected Graduatio… Busi… Cali… &lt;chr&gt;\n\n\n\n\nWork Experience\n\n\n# A tibble: 2 × 5\n  what                                when                    with  where why   \n  &lt;chr&gt;                               &lt;chr&gt;                   &lt;chr&gt; &lt;chr&gt; &lt;list&gt;\n1 Marketing Lead                      September 2024 – Prese… Bron… &lt;NA&gt;  &lt;list&gt;\n2 League of Legends Community Manager February 2023 – Present Bron… &lt;NA&gt;  &lt;list&gt;"
   }
 ]

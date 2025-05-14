@@ -1,5 +1,8 @@
 ---
 title: "Hi, I'm Kairi Meechoovet"
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 ::::: columns
@@ -8,17 +11,59 @@ title: "Hi, I'm Kairi Meechoovet"
 :::
 
 ::: {.column width="70%" style="padding-left: 3rem;"}
-I'm a Aspiring Game/Esports Community Manager and Designer. I specialize in transforming complex information into clear, engaging, and actionable insights for Esports and Gaming stuff.
+I'm a Aspiring Game/Esports Community Manager and Designer. I specialize
+in transforming complex information into clear, engaging, and actionable
+insights for Esports and Gaming stuff.
 :::
 :::::
 
 ## About Me
 
-I hold a [Business Administration Marketing Management Degree]{.highlight} from California State Polytechnic University, Pomona.
+I hold a [Business Administration Marketing Management
+Degree]{.highlight} from California State Polytechnic University,
+Pomona. From the moment I discovered a niche Disney game called Kingdom
+Hearts on the PlayStation 2, I knew that I wanted to be a keyblade
+wielder when I grew up. However, (obviously) that dream became a bit
+impractical. I figured I was better at wielding the pen and paper,
+especially after the keyblade I made out of foam boards and a wooden
+dowel broke mid-battle against the darkness (a.k.a. my stuffed animals).
+These days, I’ve leveled up with the mouse and keyboard finding new
+creative aspirations, avenues and ways I can get insomnia. A couple of
+them being League of Legends and Valorant, graphic design and Esports
+coordination.
 
 ## Let's Connect
 
-You can [email me](mailto:kairimeechoovet@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/kairi-meechoovet-06042026a/).
+You can [email me](mailto:kairimeechoovet@gmail.com) or connect on
+[LinkedIn](https://www.linkedin.com/in/kairi-meechoovet-06042026a/).
+
+## Highlighted Achievments
+
+**Esports Engagement Analytics** - Analyzed data from social media
+platforms surrounding content types and high performing formats.
+
+**Bronco Esports**
+
+-   **Graphic Design:** Used Figma to create **20+** graphics
+    reinforcing and enhancing the brand of Bronco Esports at Cal Poly
+    Pomona.
+
+-   **Event Organization:** Organized large-scale events of 400+
+    attendees with success.
+
+-   **Public Relations & Social Media:** Wrote copy and coordinated
+    posts for Discord, Instagram, and Twitter to engage audiences across
+    campus and even off campus.
+
+**Player Retention Analysis:**
+
+-   Analyzed 500+ survey responses from the FGC community, revealing
+    date and quality preferences.
+
+**In-game purchase Analysis:**
+
+-   Analyzed in-game purchase times to see when players might be
+    impacted by in-game ads in a mobile RPG.
 
 ------------------------------------------------------------------------
 

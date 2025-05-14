@@ -3,14 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "YOUR NAME"
+  title: "KAIRI MEECHOOVET"
   navbar:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Marketing Analytics"
+      - text: "Marketing Analytics in Gaming & Esports"
         href: marketing-analytics.qmd
-      - text: "Strategic Marketing"
+      - text: "Bronco Esports"
         href: strategic-marketing.qmd
       - text: "Résumé"
         href: resume.qmd

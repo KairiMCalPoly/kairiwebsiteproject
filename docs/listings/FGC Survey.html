@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>In-Game Ad Performance Dashboard – YOUR NAME</title>
+<title>Fighting Game Community (FGC) Survey – KAIRI MEECHOOVET</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -112,7 +112,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">YOUR NAME</span>
+    <span class="navbar-title">KAIRI MEECHOOVET</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -127,11 +127,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../marketing-analytics.html"> 
-<span class="menu-text">Marketing Analytics</span></a>
+<span class="menu-text">Marketing Analytics in Gaming &amp; Esports</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../strategic-marketing.html"> 
-<span class="menu-text">Strategic Marketing</span></a>
+    <a class="nav-link" href="../strategic-marketing.qmd"> 
+<span class="menu-text">Bronco Esports</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../resume.html"> 
@@ -153,7 +153,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ctr-by-ad-placement" id="toc-ctr-by-ad-placement" class="nav-link active" data-scroll-target="#ctr-by-ad-placement">CTR by Ad Placement</a></li>
+  <li><a href="#preferred-tournament-features" id="toc-preferred-tournament-features" class="nav-link active" data-scroll-target="#preferred-tournament-features">Preferred Tournament Features</a></li>
   </ul>
 </nav>
     </div>
@@ -162,11 +162,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">In-Game Ad Performance Dashboard</h1>
+<h1 class="title">Fighting Game Community (FGC) Survey</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Gaming Analytics</div>
-    <div class="quarto-category">Ad Attribution</div>
-    <div class="quarto-category">Unity/Unreal Telemtry</div>
+    <div class="quarto-category">Survey Analysis</div>
+    <div class="quarto-category">Event Planning</div>
   </div>
   </div>
 
@@ -186,57 +185,54 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="overview" class="level4">
 <h4 class="anchored" data-anchor-id="overview"><strong>Overview</strong></h4>
-<p>I built a real-time dashboard tracking player interactions with in-game ads (e.g., banner clicks, rewarded video completions) for a mobile RPG.</p>
+<p>I hosted a survey measuring metrics that drove attendance to local tournaments from a sample of 500+ members from the FGC community at Cal Poly Pomona Bronco Esports.</p>
 </section>
 <div class="columns">
 <div class="column" style="width:50%;">
-<section id="outcomes" class="level4">
-<h4 class="anchored" data-anchor-id="outcomes"><strong>Outcomes</strong></h4>
+<section id="learning-outcomes" class="level4">
+<h4 class="anchored" data-anchor-id="learning-outcomes"><strong>Learning Outcomes</strong></h4>
 <ul>
-<li>Identified a 15% drop-off rate during unskippable ads—led to A/B testing shorter formats.<br>
-</li>
-<li>Top-performing ad placement: Main menu (pre-lobby) had a 22% higher CTR than post-match screens.<br>
-</li>
+<li>Weekends Matter: 68% preferred tournaments to be hosted on Fridays or Saturdays over weekdays.</li>
+<li>Stream Quality is Prestigious: For viewers, HD broadcasts were more important that the cash rewards.</li>
 </ul>
 </section>
 </div><div class="column" style="width:50%;">
 <section id="key-skills-gained" class="level4">
 <h4 class="anchored" data-anchor-id="key-skills-gained"><strong>Key Skills Gained</strong></h4>
 <ul>
-<li>Google Analytics 4 (custom events)<br>
-</li>
-<li>Tableau for visualizing player funnel drop-offs</li>
+<li>Event Planning</li>
+<li>Market Research</li>
 </ul>
 </section>
 </div>
 </div>
-<section id="ctr-by-ad-placement" class="level3">
-<h3 class="anchored" data-anchor-id="ctr-by-ad-placement">CTR by Ad Placement</h3>
+<section id="preferred-tournament-features" class="level3">
+<h3 class="anchored" data-anchor-id="preferred-tournament-features">Preferred Tournament Features</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulated ad performance data</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>ad_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">Placement =</span> <span class="fu">c</span>(<span class="st">"Main Menu"</span>, <span class="st">"Post-Match"</span>, <span class="st">"Inventory"</span>, <span class="st">"Loading Screen"</span>),</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">CTR =</span> <span class="fu">c</span>(<span class="dv">22</span>, <span class="dv">15</span>, <span class="dv">8</span>, <span class="dv">4</span>),</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">Drop_Off_Rate =</span> <span class="fu">c</span>(<span class="dv">15</span>, <span class="dv">28</span>, <span class="dv">42</span>, <span class="dv">50</span>)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(ad_data, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(Placement, <span class="sc">-</span>CTR), <span class="at">y =</span> CTR)) <span class="sc">+</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">fill =</span> <span class="st">"#00B0F0"</span>) <span class="sc">+</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">paste0</span>(CTR, <span class="st">"%"</span>)), <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulated survey data</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>fgc_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">Feature =</span> <span class="fu">c</span>(<span class="st">"Prize Pool"</span>, <span class="st">"Stream Quality"</span>, <span class="st">"Venue"</span>, <span class="st">"Game Variety"</span>, <span class="st">"Schedule"</span>),</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">Importance =</span> <span class="fu">c</span>(<span class="dv">68</span>, <span class="dv">92</span>, <span class="dv">85</span>, <span class="dv">78</span>, <span class="dv">89</span>)  <span class="co"># % ranking as "Very Important"</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(fgc_data, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(Feature, Importance), <span class="at">y =</span> Importance)) <span class="sc">+</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">xend =</span> Feature, <span class="at">yend =</span> <span class="dv">0</span>), <span class="at">color =</span> <span class="st">"#E63946"</span>) <span class="sc">+</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">5</span>, <span class="at">color =</span> <span class="st">"#E63946"</span>) <span class="sc">+</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"In-Game Ad Click-Through Rates (CTR)"</span>,</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Main menu ads perform best, but avoid loading screens"</span>,</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Ad Placement"</span>,</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"CTR (%)"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"FGC Tournament Priorities"</span>,</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Stream quality &gt; prize money for viewers"</span>,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">""</span>,</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"% Ranking as 'Very Important'"</span></span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="02-seo-benchmarking-analysis_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="FGC-Survey_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>

@@ -1,0 +1,51 @@
+---
+title: "Fighting Game Community (FGC) Survey"
+image: "https://placehold.co/600x400?text=FGC"
+categories: [Survey Analysis, Event Planning]
+index: 3
+---
+
+#### **Overview**
+
+I hosted a survey measuring metrics that drove attendance to local tournaments from a sample of 500+ members from the FGC community at Cal Poly Pomona Bronco Esports.
+
+::::: columns
+::: {.column width="50%"}
+#### **Learning Outcomes**
+
+-   Weekends Matter: 68% preferred tournaments to be hosted on Fridays or Saturdays over weekdays.
+-   Stream Quality is Prestigious: For viewers, HD broadcasts were more important that the cash rewards.
+:::
+
+::: {.column width="50%"}
+#### **Key Skills Gained**
+
+-   Event Planning
+-   Market Research
+:::
+:::::
+
+### Preferred Tournament Features
+
+```{r}
+library(ggplot2)
+
+# Simulated survey data
+fgc_data <- data.frame(
+  Feature = c("Prize Pool", "Stream Quality", "Venue", "Game Variety", "Schedule"),
+  Importance = c(68, 92, 85, 78, 89)  # % ranking as "Very Important"
+)
+
+# Plot
+ggplot(fgc_data, aes(x = reorder(Feature, Importance), y = Importance)) +
+  geom_segment(aes(xend = Feature, yend = 0), color = "#E63946") +
+  geom_point(size = 5, color = "#E63946") +
+  coord_flip() +
+  labs(
+    title = "FGC Tournament Priorities",
+    subtitle = "Stream quality > prize money for viewers",
+    x = "",
+    y = "% Ranking as 'Very Important'"
+  ) +
+  theme_minimal()
+```

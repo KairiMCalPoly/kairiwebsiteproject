@@ -1,12 +1,9 @@
 ---
-name: First
-surname: Last
-position: "Your Role or Career Focus"
-phone: +1 (XXX) XXX-XXXX
-www: yourwebsite.com
-email: "you@example.com"
-github: your-github
-linkedin: your-linkedin
+name: Kairi
+surname: Meechoovet
+position: "Esports Coordinator and Designer"
+www: 
+email: "kairimeechoovet@gmail.com"
 date: "`r format(Sys.time(), '%B %Y')`"
 output: 
   vitae::latexcv:
@@ -37,20 +34,18 @@ library(tibble)
 
 # Professional Summary
 
-Motivated and detail-oriented marketing and analytics professional with a strong background in data interpretation, campaign strategy, and digital tools. Skilled in turning insights into action and communicating value across business teams.
+Passionate student at Cal Poly Pomona leading initiatives in collegiate Esports. Skilled in project and community & event management, graphic design, and copywriting with experience in organizing large-scale Esports/gaming events. Eager to learn and support marketing/event operations in the gaming industry.
 
-# Technical Skills
+# Programs
 
-- **Programming Languages:** R, Python, SQL, etc.  
-- **Web Technologies:** HTML, CSS/SCSS, Quarto, CMS, Google Analytics, etc.
+-   Figma, Google Suite, Microsoft 365
 
 # Education
 
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ College, ~ Institution,
-  "Master of [Your Field]", "20XX – Expected Graduation 20XX", "[Your School or Department]", "[Your University]",
-  "Bachelor of [Your Field]", "20XX – 20XX", "[Your School or Department]", "[Your University]"
+  "Bachelors of Marketing Management", "2022 – Expected Graduation 2026", "Business Administration", "California State Polytechnic University, Pomona"
 ) %>%
   detailed_entries(Degree, Year, College, Institution)
 ```
@@ -61,23 +56,25 @@ tribble(
 tribble(
   ~ Years, ~ Company, ~ Duties, ~ Title,
 
-  "Month YYYY – Month YYYY", "Company or Organization Name",
+  "September 2024 – Present", "Bronco Esports",
   list(
-    "Summarize responsibility or achievement \\#1.",
-    "Highlight tools, technologies, or methods used.",
-    "Mention metrics, goals, or impact if possible.",
-    "Add communication or leadership responsibilities here."
+    "Directed themes and coordinated media production for large-scale in-person Esports events–FragFest–that results in 400+ attendees. ",
+    "Conceptualized and executed League of Legends-related social events such as in-houses, watch parties, and competitive tournaments, fostering community engagement in online and in-person settings. ",
+    "Designed **20+** promotional graphics advertising club events that reinforced and enhanced the Bronco Esports brand identity.",
+    "Assessed engagement from all Bronco Esports social media platforms to refine marketing strategies and event planning.",
+    "Worked cross-functionally with Esports organizations like Gen. G and the marketing team, to develop creative promotional content from social events, generating tangible media that effectively boosted community engagement.",
+    "Wrote engaging creative and informative copy for Discord announcements, Instagram, and Twitter, effectively promoting events and tournaments."
   ),
-  "Job Title",
-
-  "Month YYYY – Month YYYY", "Another Company or Team",
+  "Marketing Lead",
+  "February 2023 – Present", "Bronco Esports",
   list(
-    "Led a project or team focused on [insert focus].",
-    "Collaborated cross-functionally with [departments/roles].",
-    "Managed content, campaigns, or dashboards.",
-    "Contributed to strategic planning or reporting."
+    "Led initiatives to grow the Bronco Esports League of Legends community with monthly social events/campaigns for over **150+** members.",
+    "Optimized the Bronco Esports LoL Hub Discord server by restructuring roles and redesigning sections with an aesthetically pleasing design, improving navigation for new and existing users. ",
+    "Consistently communicated efficiently with club members, participants, and attendees in-person and online helping events/campaigns run smoothly.",
+    "Directed marketing strategies that enhanced community engagement with exclusive Discord server roles and prizes for social event/campaign participants.",
+    "Frequently monitored and reported on competitor Esports club activities and Discord server operations identifying opportunities to improve engagement and event quality."
   ),
-  "Job Title"
+  "League of Legends Community Manager"
 
 ) %>%
   detailed_entries(

@@ -1,0 +1,51 @@
+---
+title: "In-Game Ad Performance Dashboard"
+image: "https://placehold.co/600x400?text=Ads"
+categories: [Gaming Analytics, Ad Attribution, Unity/Unreal Telemtry]
+index: 2
+---
+
+#### **Overview**
+
+I built a real-time dashboard tracking player interactions with in-game ads (e.g., banner clicks, rewarded video completions) for a mobile RPG.
+
+::::: columns
+::: {.column width="50%"}
+#### **Outcomes**
+
+-   Identified a 15% drop-off rate during unskippable ads—led to A/B testing shorter formats.\
+-   Top-performing ad placement: Main menu (pre-lobby) had a 22% higher CTR than post-match screens.\
+:::
+
+::: {.column width="50%"}
+#### **Key Skills Gained**
+
+-   Google Analytics 4 (custom events)\
+-   Tableau for visualizing player funnel drop-offs
+:::
+:::::
+
+### CTR by Ad Placement
+
+```{r}
+library(ggplot2)
+
+# Simulated ad performance data
+ad_data <- data.frame(
+  Placement = c("Main Menu", "Post-Match", "Inventory", "Loading Screen"),
+  CTR = c(22, 15, 8, 4),
+  Drop_Off_Rate = c(15, 28, 42, 50)
+)
+
+# Plot
+ggplot(ad_data, aes(x = reorder(Placement, -CTR), y = CTR)) +
+  geom_col(fill = "#00B0F0") +
+  geom_text(aes(label = paste0(CTR, "%")), vjust = -0.5) +
+  labs(
+    title = "In-Game Ad Click-Through Rates (CTR)",
+    subtitle = "Main menu ads perform best, but avoid loading screens",
+    x = "Ad Placement",
+    y = "CTR (%)"
+  ) +
+  theme_minimal()
+```

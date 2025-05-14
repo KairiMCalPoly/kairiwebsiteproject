@@ -1,0 +1,135 @@
+---
+title: "Case Study: Esports Social Media Engagement Analysis"
+image: "https://placehold.co/600x400?text=Case+Study"
+categories: [Esports, Social Media Analytics, Twitch, Audience Growth, Content Strategy]
+index: 1
+---
+
+#### **Overview**
+
+In this project, I worked with a Tier 2 Esports organization and helped them track their engagement metrics from their digital platforms such as Twitch, Twitter, Instagram, and TikTok in order to identify what content resonates with their audience. I focused on post-tournament attraction, meme trends, and player spotlight campaigns.
+
+::::: columns
+::: {.column width="50%"}
+#### **Key Insights**
+
+-   **Memes & Highlights = 3x Engagement:** Short-form video clips of clutch replays outperformed static posts by 200%.
+-   **Peak Posting Times:** 7-9 PM EST (post-tournament hours) drove the most interactions.
+-   **Hashtag Strategy:** #LEAGUEOFLEGENDS and #ESPORTS boosted discoverability by 40%.
+:::
+
+::: {.column width="50%"}
+#### **Key Skills Gained**
+
+-   Social listening (Brandwatch, Sprout Social)\
+-   Twitch stream overlay CTR analysis\
+-   Audience Sentiment tracking (positive spikes after tournament wins)
+:::
+:::::
+
+### Twitter vs Tik Tok
+
+```{r}
+# Load required package
+library(ggplot2)
+
+# Simulated engagement data
+social_data <- data.frame(
+  Platform = c(rep("Twitter", 5), rep("TikTok", 5)),
+  Post_Type = rep(c("Meme", "Highlight", "Poll", "AMA", "Giveaway"), 2),
+  Engagement_Rate = c(3.2, 4.1, 1.8, 2.5, 5.0, 8.7, 9.2, 2.1, 4.3, 12.1)
+)
+
+# Plot
+ggplot(social_data, aes(x = Post_Type, y = Engagement_Rate, fill = Platform)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Esports Content Engagement by Platform",
+    subtitle = "TikTok clips outperform Twitter posts by 2-3x",
+    x = "Post Type",
+    y = "Engagement Rate (%)"
+  ) +
+  theme_minimal() +
+  scale_fill_manual(values = c("#1DA1F2", "#FF0050"))  # Twitter blue + TikTok red
+```
+
+### Hashtag Performance
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+# Simulated hashtag performance data across platforms
+hashtag_data <- data.frame(
+  Hashtag = rep(c("#LeagueOfLegends", "#Esports", "#Gaming", "#LEC"), 3),
+  Platform = rep(c("TikTok", "Twitter", "Instagram"), each = 4),
+  Discoverability_Lift = c(
+    # TikTok performance
+    52, 48, 28, 35,
+    # Twitter performance
+    40, 38, 15, 22,
+    # Instagram performance
+    45, 42, 20, 30
+  )
+)
+
+# 1. Combined Platform Visualization
+ggplot(hashtag_data, aes(x = reorder(Hashtag, -Discoverability_Lift), 
+                       y = Discoverability_Lift, 
+                       fill = Platform)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  geom_text(aes(label = paste0(Discoverability_Lift, "%")), 
+            position = position_dodge(width = 0.9),
+            vjust = -0.5, size = 3) +
+  scale_fill_manual(values = c("#FF0050", "#1DA1F2", "#E1306C")) + # Platform colors
+  labs(
+    title = "Hashtag Performance Across Platforms",
+    subtitle = "#LeagueOfLegends dominates on TikTok (52% lift vs 40% on Twitter)",
+    x = "",
+    y = "Discoverability Lift (%)",
+    fill = "Platform"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "top")
+
+# 2. Individual Platform Visualizations (Facets)
+ggplot(hashtag_data, aes(x = reorder(Hashtag, -Discoverability_Lift), 
+                       y = Discoverability_Lift)) +
+  geom_col(fill = "#2196F3", width = 0.7) +
+  geom_text(aes(label = paste0(Discoverability_Lift, "%")), 
+            vjust = -0.5, size = 3.5) +
+  facet_wrap(~Platform, nrow = 1) +
+  labs(
+    title = "Hashtag Performance by Platform",
+    subtitle = "TikTok shows highest potential for discoverability growth",
+    x = "",
+    y = "Discoverability Lift (%)"
+  ) +
+  theme_minimal() +
+  theme(strip.text = element_text(face = "bold"))
+
+# 3. Platform Comparison Heatmap
+ggplot(hashtag_data, aes(x = Platform, y = Hashtag, fill = Discoverability_Lift)) +
+  geom_tile(color = "white", size = 0.5) +
+  geom_text(aes(label = paste0(Discoverability_Lift, "%")), color = "white", size = 4) +
+  scale_fill_gradient(low = "#3F51B5", high = "#FF4081") +
+  labs(
+    title = "Hashtag Effectiveness Heatmap",
+    x = "",
+    y = "",
+    fill = "Lift (%)"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 0, hjust = 0.5))
+```
+
+### Key Insights From Data
+
+-   Platform Differences:
+
+    -   Tik Tok hashtags perform best overall (52% max lift)
+
+    -   Twitter performs the worst which can suggest that our audience isn't on Twitter that much
+
+    -   Our Instagram can improve

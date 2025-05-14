@@ -12,44 +12,88 @@ rmarkdown::render(
 )
 ```
 
-You can view a PDF version of my résumé [here](resume/Resume.pdf).
+You can view a PDF version of my resume [here](resume/Resume.pdf) or [here](https://30fd0441-042f-4d31-9c32-2c96144d4730.filesusr.com/ugd/c4f4d0_1725b0136fc54801a763116fc29ab348.pdf).
 
 # Professional Summary
 
-Results-oriented marketing and analytics professional with a strong foundation in data analysis, digital strategy, and performance reporting. Skilled in leveraging analytics tools and programming languages to uncover insights and support decision-making across cross-functional teams.
+Passionate student at Cal Poly Pomona leading initiatives in collegiate Esports. Skilled in project and community & event management, graphic design, and copywriting with experience in organizing large-scale Esports/gaming events. Eager to learn and support marketing/event operations in the gaming industry.
 
-# Technical Skills
+# EDUCATION
 
-- **Programming Languages:** R, Python, SQL, etc.  
-- **Web Technologies:** HTML, CSS/SCSS, JavaScript, Quarto, CMS Platforms, Analytics Tools
+| Degree | Year | College / Department | Institution |
+|------------------|------------------|------------------|------------------|
+| BBA Marketing Management | Aug 2022 - May 2026 | Business Administration | California State Polytechnic University |
 
-# Education
+# PROGRAMS
 
-| Degree                             | Year                          | College / Department                 | Institution         |
-| ---------------------------------- | ----------------------------- | ------------------------------------ | ------------------- |
-| [Your Degree]                     | [Start – Graduation Year]     | [Your College or Department]        | [Your University]   |
-| [Previous Degree or Certification] | [Start – End Year]            | [Your College or Department]        | [Your University]   |
+-   Figma
 
-# Work Experience
+-   Microsoft 365
 
-### [Job Title], [Company or Organization]  
-*[Start Date – End Date]*
+-   Google Suite
 
-- [Responsibility or accomplishment #1]  
-- [Responsibility or accomplishment #2]  
-- [Responsibility or accomplishment #3]  
-- [Technical tools, collaboration, or outcomes]  
-- [Any metrics, impacts, or stakeholder involvement]
+-   CapCut
 
----
+# SKILLS
 
-### [Job Title], [Company or Organization]  
-*[Start Date – End Date]*
+-   Marketing
 
-- [Responsibility or accomplishment #1]  
-- [Responsibility or accomplishment #2]  
-- [Team leadership, training, or development]  
-- [Projects involving marketing, data, or web technologies]  
-- [Toolset used or strategies implemented]
+-   Event Planning
 
----
+-   Concept
+
+-   Creative Strategy
+
+-   Graphic Design
+
+-   Directing
+
+-   Branding
+
+-   Public Relations
+
+# INTERESTS
+
+-   Video Games
+
+-   Anime
+
+-   Fashion
+
+-   Esports
+
+# EXPERIENCE
+
+### Marketing Team Lead, Bronco Esports
+
+*\[September 2024 – Present\]*
+
+-   Directed themes and coordinated media production for large-scale in-person Esports events–FragFest–that results in 400+ attendees.\
+-   Worked cross-functionally with Esports organizations like **Gen. G** and the marketing team, to develop creative promotional content from social events, generating tangible media that effectively boosted community engagement.\
+-   Wrote engaging creative and informative copy for Discord announcements, Instagram, and Twitter, effectively promoting events and tournaments.\
+-   Conceptualized and executed League of Legends-related social events such as in-houses, watch parties, and competitive tournaments, fostering community engagement in online and in-person settings.\
+-   Designed **20+** promotional graphics advertising club events that reinforced and enhanced the Bronco Esports brand identity.\
+-   Assessed engagement from all Bronco Esports social media platforms to refine marketing strategies and event planning.\
+
+------------------------------------------------------------------------
+
+### League of Legends Community Manager, Bronco Esports
+
+*\[February 2023 – Present\]*
+
+-   Led initiatives to grow the Bronco Esports League of Legends community with monthly social events/campaigns for over **150+** members.\
+-   Optimized the Bronco Esports LoL Hub Discord server by restructuring roles and redesigning sections with an aesthetically pleasing design, improving navigation for new and existing users.\
+-   Directed marketing strategies that enhanced community engagement with exclusive Discord server roles and prizes for social event/campaign participants.\
+-   Consistently communicated efficiently with club members, participants, and attendees in-person and online helping events/campaigns run smoothly.\
+-   Frequently monitored and reported on competitor Esports club activities and Discord server operations identifying opportunities to improve engagement and event quality.
+
+------------------------------------------------------------------------
+
+### League of Legends Team Manager, Bronco Esports
+
+*\[May 2024 – Present\]*
+
+-   Collaborated with college Esports club leaders to organize scrims for player and team evaluations.\
+-   Managed team schedules and meetings, creating informative presentations for monthly updates and tournament preparation reinforcing club objectives.\
+
+------------------------------------------------------------------------

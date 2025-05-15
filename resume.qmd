@@ -12,7 +12,7 @@ rmarkdown::render(
 )
 ```
 
-You can view a PDF version of my resume [here](resume/Resume.pdf) or [here](https://30fd0441-042f-4d31-9c32-2c96144d4730.filesusr.com/ugd/c4f4d0_1725b0136fc54801a763116fc29ab348.pdf).
+You can view a PDF version of my resume [here](https://30fd0441-042f-4d31-9c32-2c96144d4730.filesusr.com/ugd/c4f4d0_1725b0136fc54801a763116fc29ab348.pdf).
 
 # Professional Summary
 

@@ -155,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>You can view a PDF version of my resume <a href="resume/Resume.pdf">here</a> or <a href="https://30fd0441-042f-4d31-9c32-2c96144d4730.filesusr.com/ugd/c4f4d0_1725b0136fc54801a763116fc29ab348.pdf">here</a>.</p>
+<p>You can view a PDF version of my resume <a href="https://30fd0441-042f-4d31-9c32-2c96144d4730.filesusr.com/ugd/c4f4d0_1725b0136fc54801a763116fc29ab348.pdf">here</a>.</p>
 <section id="professional-summary" class="level1">
 <h1>Professional Summary</h1>
 <p>Passionate student at Cal Poly Pomona leading initiatives in collegiate Esports. Skilled in project and community &amp; event management, graphic design, and copywriting with experience in organizing large-scale Esports/gaming events. Eager to learn and support marketing/event operations in the gaming industry.</p>
@@ -363,7 +363,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/304cf448-4194-4f3b-97e5-d129832fb532\.netlify\.app\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
